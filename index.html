@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Solution</title>
+    <!-- Daisy UI + TailwindCSS CDN -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome CDNJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        primary: '#B68C5A'
+                    },
+                    fontFamily: {
+                        garamond: 'EB Garamond'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-garamond">
+    <header>
+        <!-- nav starts here -->
+        <nav class="container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+
+                            <li><a>Services</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blogs</a></li>
+                            <li><a>About Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- brand Logo -->
+                    <a href="" class=""><img class="w-32" src="images/logo2.png" alt=""></a>
+                </div>
+                <!-- large Devices -->
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+
+                        <li><a>Services <i class="fa-solid fa-chevron-right text-gray-500"></i></a></li>
+                        <li><a>Cases <i class="fa-solid fa-chevron-right text-gray-500"></i></a></li>
+                        <li><a>Blogs <i class="fa-solid fa-chevron-right text-gray-500"></i></a></li>
+                        <li><a>About Us <i class="fa-solid fa-chevron-right text-gray-500"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-primary text-white">Free Consultation</a>
+
+                </div>
+            </div>
+        </nav>
+        <!-- nav ends here -->
+        <!-- Banner Starts here  -->
+        <div class="container mx-auto my-20">
+            <div class="hero h-96" style="background-image: url('/images/banner.png');">
+                <div class="hero-overlay bg-opacity-10"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="">
+                        <h1 class="mb-5 text-5xl font-extrabold">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+                        <!-- bottom part -->
+                        <div class="flex justify-center gap-2">
+                            <div> <label class="input  flex items-center lg:w-96">
+                                    <input type="text" placeholder="Search Your Services" /></div>
+
+                            <div>
+                                <button class="btn bg-primary text-white border-none w-24">Search</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Ends here -->
+
+
+
+    </header>
+
+    <main>
+
+
+
+    </main>
+
+    <footer>
+
+
+
+    </footer>
+
+</body>
+
+</html>
